@@ -1,0 +1,29 @@
+name: simple_hiit_timer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  confetti: ^0.7.0
+  soundpool: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/five_down_iris_1.mp3
+    - assets/sounds/start_iris_1.mp3
+    - assets/sounds/rest_iris_1.mp3
+    - assets/sounds/break_iris_1.mp3
+    - assets/sounds/last_set_iris_1.mp3
+    - assets/sounds/last_round_iris_1.mp3
+    - assets/sounds/finish_iris_1.mp3
